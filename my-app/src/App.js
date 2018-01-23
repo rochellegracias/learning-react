@@ -1,24 +1,27 @@
-import React, { Component } from 'react';
-import searchicon from './search.svg';
-import './App.css';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-class App extends Component {
-  render() {
+class App extends React.Component {
+  render(){
+    let txt = this.props.txt
     return (
-      <div className='container'>
-        <div className='navbar'>
-          <a className='homelink' href="#">Home</a>
-          <div class="search-container">
-            <input type="text" placeholder="Search.." name="search" />
-            <button type="submit"><i src="searchicon"></i></button>
-          </div>
-        </div>
-        <div className='home-container'>
-
-        </div>
+      <div>
+        <h1>
+          Hello {txt}
+        </h1>
+        <b>Bold</b>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+App.propTypes = {
+    txt: PropTypes.string,
+    cat: PropTypes.number.isRequired
+}
+
+App.defaulProps = {
+    txt: "World"
+}
+
+export default App

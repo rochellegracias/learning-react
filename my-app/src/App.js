@@ -21,7 +21,7 @@ App.propTypes = {
 }
 
 App.defaulProps = {
-    txt: "World"
+    txt: 'World'
 }
 
 export default App

@@ -1,6 +1,6 @@
-#Learning React
+# **Learning React**
 
-##STEP 1 - Set up development environment
-- [Create React App](https://github.com/facebookincubator/create-react-app).
+## STEP 1 - _Set up development environment_
+  * [Create React App](https://github.com/facebookincubator/create-react-app)
 
-##STEP 2 - Simple Hello World application
+## STEP 2 - _Simple Hello World application_ 

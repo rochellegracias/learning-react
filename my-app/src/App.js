@@ -20,7 +20,7 @@ App.propTypes = {
     cat: PropTypes.number.isRequired
 }
 
-App.defaulProps = {
+App.defaultProps = {
     txt: 'World'
 }
 
